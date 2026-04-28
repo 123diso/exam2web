@@ -13,7 +13,9 @@ export const Dashboard = () => {
 
     return <>
     
-    <button onClick={() => navigate("/") }>
+    <button onClick={() => navigate("/summary")
+
+    }>
 
 
     </button>

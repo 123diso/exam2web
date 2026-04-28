@@ -14,6 +14,7 @@ function App() {
     <p>hola</p>
 
     <Route path='/' element = {<Dashboard />} />
+    <Route path='/summary' element = {<summary />} />
 
       
     </Routes>

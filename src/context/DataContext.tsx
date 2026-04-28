@@ -7,6 +7,7 @@ export const IncidentsProvider = ({ children }) => {
 
     const[DataList, setDataList] = useState(IniciaData)
 
+
     return (
         <>
         <DataContext.Provider value={{DataList,setDataList}}>
